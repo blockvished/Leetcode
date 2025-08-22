@@ -13,4 +13,7 @@ class Solution:
                 e = m-1
         return e+1
 
+
 # took tinkering for multiple tries but ez as before
+# just figured that we can return start as well since in the end the start and end pointers will be adjacent but end will be before start
+# e, s -> instead of adding 1 to e, we can directly return s
